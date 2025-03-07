@@ -88,7 +88,7 @@ void del(int x){
     //wei hu ping heng
     upd(che);
     splay(che);
-}
+}//wow
 int rnk(int x){
     int now=rt;int res=1;int f;
     while(now){
