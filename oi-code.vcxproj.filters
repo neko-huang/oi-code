@@ -84,13 +84,16 @@
     <ClCompile Include="P2617.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
-    <ClCompile Include="P3379.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
     <ClCompile Include="P3369.cpp">
       <Filter>源文件\AC</Filter>
     </ClCompile>
     <ClCompile Include="P3369_splay.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3369_treap.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P3379.cpp">
       <Filter>源文件\AC</Filter>
     </ClCompile>
   </ItemGroup>
