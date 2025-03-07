@@ -8,37 +8,45 @@ struct node{
     int fa=0,sz=0;
     int cnt=0;//cnt shi quan zhi(dian quan)
 }tree[maxn];
-int rt=0;
-int idx=0;
+int rt=0;//root
+int idx=0;//node cnt
 int newnode(int x){
+    //node cnt->quan zhi idx->bian hao
     tree[++idx].cnt=x;
-    tree[idx].sz=1;
+    tree[idx].sz=1; 
     return idx;
 }
 bool get(int x){
+    //left or right? true->right false->left
     return tree[tree[x].fa].s[1]==x;
 }
 void upd(int x){
-    tree[x].sz=tree[tree[x].ls].sz+tree[tree[x].rs].sz+tree[x].cnt;
+    //oh!! my size
+    tree[x].sz = tree[tree[x].ls].sz + tree[tree[x].rs].sz + 1;
 }
+//1 error
 void clear(int x){
+    //si!
     tree[x].fa=tree[x].sz=tree[x].cnt=tree[x].s[0]=tree[x].s[1]=0;
 }
 void rotate(int x){
-    int f=tree[x].fa,gf=tree[f].fa,c=get(x);
-    tree[f].s[c]=tree[x].s[!c];
-    if(tree[x].s[!c]){
-        tree[tree[x].s[!c]].fa=f;
+    int f = tree[x].fa, gf = tree[f].fa;bool c = get(x);//father grandfather //left or right
+    if(tree[x].s[!c]){//im father 
+        tree[tree[x].s[!c]].fa=f;//my son is my grandson yet//after 3 steps
     }
-    tree[x].s[!c]=f;
-    tree[f].fa=x;
+    tree[f].s[c] = tree[x].s[!c];//1 step
+    tree[x].s[!c]=f;//im father now!     |
+    tree[f].fa = x;//gong gu di wei also V
+
+    tree[x].fa = gf;//jia jie
     if(gf){
-        tree[gf].s[f==tree[gf].ls]=x;
+        tree[gf].s[f==tree[gf].rs]=x;//jia jie
     }
-    upd(f);
-    upd(x);
+    upd(f);//wei
+    upd(x);//wei
     return ;
 }
+//3 errors
 void splay(int x){
     for(int f=tree[x].fa;f=tree[x].fa,f;rotate(x)){
         if(tree[f].fa){
@@ -61,7 +69,7 @@ void del(int x){
     int now=rt,f=0;
     while(tree[now].cnt!=x and now){//and now? bao zheng fei!kong ji
         f=now;
-        now=tree[now].s[tree[now].cnt>x];
+        now=tree[now].s[x>tree[now].cnt];//look and find where to del
     }
     // fen lei 0:kong ji
     if(!now){
@@ -75,11 +83,12 @@ void del(int x){
         rt=tree[now].s[1];
         tree[tree[now].s[1]].fa=0;
         clear(now);
+        return ;
     }
-    //fen lei 2:yes! you lson(whather you mei you rson)
+    //fen lei 2:yes! have lson(whather you mei you rson)
     while(tree[che].s[1]){
         che=tree[che].s[1];
-    }//zuo zi shu de zui da zhi
+    }//pre father 's ltree 's rtree 's max
     tree[che].s[1]=tree[now].s[1];
     tree[tree[now].s[1]].fa=che;
     tree[tree[now].s[0]].fa=0;//wo shi rt
@@ -89,6 +98,7 @@ void del(int x){
     upd(che);
     splay(che);
 }//wow
+//hehe! 3errs checked
 int rnk(int x){
     int now=rt;int res=1;int f;
     while(now){
@@ -107,19 +117,21 @@ int rnk(int x){
 int kth(int x){
     int now=rt;
     while(now){
-        if(x<=tree[tree[now].s[0]].sz){
+        if(x<tree[tree[now].s[0]].sz+1){//1 kai tou xia biao//yao +1//+3+3+3
             now=tree[now].s[0];
         }
-        else if(x==tree[tree[now].s[0]].sz){
+        else if(x==tree[tree[now].s[0]].sz+1){
             break;
         }
         else{
             x-=tree[tree[now].s[0]].sz;
+            x--;
             now=tree[now].s[1];
         }
     }
     splay(now);return tree[now].cnt;
 }
+//wow 1 err -60pts
 int pre(int x){
     int now=rt;int ans=0;int f;
     while(now){
