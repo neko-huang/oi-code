@@ -55,6 +55,11 @@ ll search(int x){
     return sum;
 }
 int main(){
+
+#ifdef _FREOPEN
+    freopen("input.txt", "r", stdin);
+#endif // _FREOPEN
+
     int m;
     n=read();m=read();
     for(int i=1;i<=n;i++){

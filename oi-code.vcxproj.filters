@@ -96,5 +96,13 @@
     <ClCompile Include="P3379.cpp">
       <Filter>源文件\AC</Filter>
     </ClCompile>
+    <ClCompile Include="P2894.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>

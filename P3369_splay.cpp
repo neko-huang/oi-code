@@ -178,6 +178,10 @@ int read(){
     return igt*sgn;
 }
 int main(){
+
+#ifdef _FREOPEN
+    freopen("input.txt", "r", stdin);
+#endif // _FREOPEN
     int n=read();
     int opt,x;
     while(n--){
