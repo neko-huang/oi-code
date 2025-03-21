@@ -138,6 +138,51 @@
     <ClCompile Include="D:\z20260817\HSCcode\P1802.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
+    <ClCompile Include="P1137.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="p1002.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1005.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1048.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1351.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1216.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1471.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1802.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1941.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2834.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2840.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2842.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P11231.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P11231-1.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P11233.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
