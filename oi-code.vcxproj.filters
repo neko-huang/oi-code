@@ -108,6 +108,36 @@
     <ClCompile Include="P1886.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P11233.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\code\C++\luogu\P\P3386.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P2834.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P2840.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P2842.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P1216.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P1048.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P1005.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P1351.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\z20260817\HSCcode\P1802.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
