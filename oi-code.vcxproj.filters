@@ -9,10 +9,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="源文件\AC">
       <UniqueIdentifier>{08f16058-2250-41b6-8177-8348720a1eb6}</UniqueIdentifier>
     </Filter>
@@ -27,6 +23,10 @@
     </Filter>
     <Filter Include="源文件\others">
       <UniqueIdentifier>{de5b4b59-4772-4b90-b972-aca57e5a2034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1156,6 +1156,870 @@
       <Filter>源文件\计划中</Filter>
     </ClCompile>
     <ClCompile Include="..\oi-code1\P1034.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="2f1.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f1.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f1.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f1a3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f1a3非printf.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f2a7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f3.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f3.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f3.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.2超级作死.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.2偏作死向.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f5.1.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2F5.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f5.2.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f5.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f5.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f6.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f7.1埃氏筛!.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f7.2冒泡排序.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f7.3剥离数位.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f7.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f8.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f8.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f9.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f9.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f14.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f14.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f14.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2f14.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3.8.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3-AC.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3-MLE.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa3-WA.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.6.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.8.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.9.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.10.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.11.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.8.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.9.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.10.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa8.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.8.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.9.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.10.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa9.11.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.8.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.9.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.10.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.11.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.12.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa10.13.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa11.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa11.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa11.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa11.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa12.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa12.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa12.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa12.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.6.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.7.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.8.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa13.8.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa14.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa14.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa14.3.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa14.3重构.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa14.4.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fa14.5.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fb9.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fb9.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fc9.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fc11.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fc13.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fd14.1.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="2fd14.2.cpp">
+      <Filter>源文件\2f-before</Filter>
+    </ClCompile>
+    <ClCompile Include="char-128~127.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="n的n次幂(整数).cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="猜数.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="打擂.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="改进版埃氏筛.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="高精度练手.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="红与黑.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="机器分配.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="阶乘.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="脑袋一热筛.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="能量项链.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="伪DP-贪心部分背包问题.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="2的n次幂计算.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="P20.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="P22.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="CT5.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="CT4.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="CT3.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="CT2.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="CT1.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="wow.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="PDT.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="P1005 (2).cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1002 [NOIP2002].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1009.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1012_25.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1012_AC.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1031.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1044.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1068.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1087.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1089.1.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1089.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1104.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1145.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1149.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1161.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1168.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1177.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1190.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1205.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1217.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1255.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1305.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1309_80.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1319.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1320.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1427.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1428.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1433.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1434.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1507.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1531.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1554.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1616 疯狂的采药.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1651.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1720.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1757.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1789.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1816.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1832.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1890.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1902.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1958.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2078.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2141.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2347.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2357.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2392.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2393.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2550.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2615.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2678.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2739.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2911.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3366 【模板】最小生成树.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3373.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3379_LCA.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3383.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3398.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3740.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3807.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3811.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3817.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3865.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3871.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3871_TXP.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P4092.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P4281.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5143.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5461.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5656.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5675.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5725.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5728.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5729.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5730.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5731.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5732.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5736.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5737.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5738.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P5739.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P7071 [CSP-J2020] .cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P7072 [CSP-J2020].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P7073 [CSP-J2020].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P7909 [CSP-J 2021].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P8813 [CSP-J 2022].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P8814 [CSP-J 2022].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P9750 [CSP-J 2023].cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P10024.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P114514.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P114515.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T115634.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T513396.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T548939.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T552937.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T561025.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T572416.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T572417.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="U177460.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P10483.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="verylong.cpp">
+      <Filter>源文件\基础</Filter>
+    </ClCompile>
+    <ClCompile Include="P1034.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P3384.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P2824.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P7866.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P10453.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="U165526.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
   </ItemGroup>
