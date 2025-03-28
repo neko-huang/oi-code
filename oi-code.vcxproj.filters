@@ -18,15 +18,15 @@
     <Filter Include="源文件\2f-before">
       <UniqueIdentifier>{f075802e-cc6b-4db8-9df4-e12723d15dfb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\基础">
-      <UniqueIdentifier>{86ab79fc-4069-46b7-a5d2-d80d1f826ade}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\others">
       <UniqueIdentifier>{de5b4b59-4772-4b90-b972-aca57e5a2034}</UniqueIdentifier>
     </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\基础算法">
+      <UniqueIdentifier>{86ab79fc-4069-46b7-a5d2-d80d1f826ade}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -637,46 +637,46 @@
       <Filter>源文件\2f-before</Filter>
     </ClCompile>
     <ClCompile Include="char-128~127.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="n的n次幂(整数).cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="猜数.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="打擂.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="改进版埃氏筛.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="高精度练手.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="红与黑.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="机器分配.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="阶乘.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="冒泡.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="脑袋一热筛.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="能量项链.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="伪DP-贪心部分背包问题.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="2的n次幂计算.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="P20.cpp">
       <Filter>源文件\others</Filter>
@@ -707,9 +707,6 @@
     </ClCompile>
     <ClCompile Include="PDT.cpp">
       <Filter>源文件\others</Filter>
-    </ClCompile>
-    <ClCompile Include="P1005 (2).cpp">
-      <Filter>源文件\AC</Filter>
     </ClCompile>
     <ClCompile Include="P1002 [NOIP2002].cpp">
       <Filter>源文件\AC</Filter>
@@ -1009,7 +1006,7 @@
       <Filter>源文件\AC</Filter>
     </ClCompile>
     <ClCompile Include="verylong.cpp">
-      <Filter>源文件\基础</Filter>
+      <Filter>源文件\基础算法</Filter>
     </ClCompile>
     <ClCompile Include="P1034.cpp">
       <Filter>源文件\计划中</Filter>
@@ -1030,6 +1027,9 @@
       <Filter>源文件\计划中</Filter>
     </ClCompile>
     <ClCompile Include="P1896.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P3810.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
   </ItemGroup>
