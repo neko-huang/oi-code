@@ -75,7 +75,7 @@ void CDQ(int l, int r) {
 	int frt = l, bck = mid + 1;
 	for (; bck <= r; bck++) {
 		while (frt <= mid and lis[frt].b<=lis[bck].b) {
-			add(lis[frt].c,lis[frt].id);
+			add(lis[frt].c,lis[frt].num);
 			frt++;
 		}
 		f[lis[bck].id] += query(lis[bck].c);
@@ -116,7 +116,7 @@ int main() {
 	//I have already finished this sort
 	int t = 1;
 	for (int i = 2; i <= n; i++) {
-		if (lis[i] != lis[i - 1]) {
+		if (lis[i] != lis[t]) {
 			lis[++t] = lis[i];
 		}
 		else {

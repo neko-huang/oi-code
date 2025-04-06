@@ -28,6 +28,12 @@
     <Filter Include="源文件\基础算法">
       <UniqueIdentifier>{86ab79fc-4069-46b7-a5d2-d80d1f826ade}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\contest">
+      <UniqueIdentifier>{a019aa88-6786-4b8a-8f09-a80909ab4886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\contest\atcoder 25/04/05">
+      <UniqueIdentifier>{3e9ae777-2194-4d10-96b9-0b2fb316d63d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1031,6 +1037,27 @@
     </ClCompile>
     <ClCompile Include="P3810.cpp">
       <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
+    </ClCompile>
+    <ClCompile Include="D.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
+    </ClCompile>
+    <ClCompile Include="E.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
+    </ClCompile>
+    <ClCompile Include="F.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
