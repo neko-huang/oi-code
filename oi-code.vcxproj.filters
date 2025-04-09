@@ -1059,6 +1059,9 @@
     <ClCompile Include="G.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
+    <ClCompile Include="P1348.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
