@@ -34,6 +34,9 @@
     <Filter Include="源文件\contest\atcoder 25/04/05">
       <UniqueIdentifier>{3e9ae777-2194-4d10-96b9-0b2fb316d63d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\contest\atcoder 25/04/27">
+      <UniqueIdentifier>{8a46ad36-0f3f-4c6f-95df-26c283fecba3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1038,25 +1041,25 @@
     <ClCompile Include="P3810.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
-    <ClCompile Include="A.cpp">
+    <ClCompile Include="250405 A.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
-    <ClCompile Include="B.cpp">
+    <ClCompile Include="250405 B.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
-    <ClCompile Include="C.cpp">
+    <ClCompile Include="250405 C.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
-    <ClCompile Include="D.cpp">
+    <ClCompile Include="250405 D.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
-    <ClCompile Include="E.cpp">
+    <ClCompile Include="250405 E.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
-    <ClCompile Include="F.cpp">
+    <ClCompile Include="250405 F.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
-    <ClCompile Include="G.cpp">
+    <ClCompile Include="250405 G.cpp">
       <Filter>源文件\contest\atcoder 25/04/05</Filter>
     </ClCompile>
     <ClCompile Include="P1348.cpp">
@@ -1073,6 +1076,24 @@
     </ClCompile>
     <ClCompile Include="UVA11362.cpp">
       <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="250427 A.cpp">
+      <Filter>源文件\contest\atcoder 25/04/27</Filter>
+    </ClCompile>
+    <ClCompile Include="250427 B.cpp">
+      <Filter>源文件\contest\atcoder 25/04/27</Filter>
+    </ClCompile>
+    <ClCompile Include="250427 C.cpp">
+      <Filter>源文件\contest\atcoder 25/04/27</Filter>
+    </ClCompile>
+    <ClCompile Include="250427 D.cpp">
+      <Filter>源文件\contest\atcoder 25/04/27</Filter>
+    </ClCompile>
+    <ClCompile Include="250427 E.cpp">
+      <Filter>源文件\contest\atcoder 25/04/27</Filter>
+    </ClCompile>
+    <ClCompile Include="250427 C1.cpp">
+      <Filter>源文件\contest\atcoder 25/04/27</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
