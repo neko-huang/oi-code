@@ -1,24 +1,11 @@
 #include <iostream>
-#include <algorithm>
 #include <vector>
-#include <utility>
 #include <set>
 using namespace std;
-struct node {
-	int people, id, page;
-	bool operator<(const node& s1)const{
-		if (people < s1.people) {
-			return true;
-		}
-		else if (id < s1.id) {
-			return true;
-		}
-		else {
-			return false;
-		}
-	}
-};
 const int maxn = int(2e5 + 5);
+set <int> reca[maxn];
+bool recb[maxn];
+
 int read() {
 	int igt = 0, sgn = 1;
 	char c = getchar();
@@ -34,33 +21,28 @@ int read() {
 	}
 	return igt * sgn;
 }
-node change[maxn];
-node query[maxn];
-bool cmp(node a, node b) {
-	return a < b;
-}
+
 int main() {
-	int n=read(),m=read(),q=read();
-	int cnt = 1;
-	int tot = 1;
+	int n = read(), m = read(), q = read();
 	for (int i = 1; i <= q; i++) {
 		int opt = read();
 		if (opt == 1) {
 			int x = read(), y = read();
-			change[cnt] = { x,cnt++,y};
+			reca[x].insert(y);
 		}
 		else if (opt == 2) {
 			int x = read();
-			for (int j = 1; j <= m; j++) {
-				change[cnt] = { x,cnt++,j };
-			}
+			recb[x] = 1;
 		}
 		else {
 			int x = read(), y = read();
-			query[tot] = { x,tot++,y };
+			if (recb[x] or reca[x].find(y)!=reca[x].end()) {
+				printf("Yes\n");
+				continue;
+			}
+			printf("No\n");
+			
 		}
 	}
-	sort(change + 1, change + 1 + cnt, cmp);
-	sort(query + 1, query + 1 + tot, cmp);
-
+	return 0;
 }
