@@ -1065,18 +1065,6 @@
     <ClCompile Include="P1348.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
-    <ClCompile Include="P3375.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P10470.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P10471.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="UVA11362.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
     <ClCompile Include="250427 A.cpp">
       <Filter>源文件\contest\atcoder 25/04/27</Filter>
     </ClCompile>
@@ -1094,6 +1082,21 @@
     </ClCompile>
     <ClCompile Include="250427 C1.cpp">
       <Filter>源文件\contest\atcoder 25/04/27</Filter>
+    </ClCompile>
+    <ClCompile Include="UVA11362.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P10471.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3375.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P10470.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3501.cpp">
+      <Filter>源文件\计划中</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
