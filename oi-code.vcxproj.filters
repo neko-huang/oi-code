@@ -1110,6 +1110,15 @@
     <ClCompile Include="P9606.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
+    <ClCompile Include="P4555.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂.cpp">
+      <Filter>源文件\基础算法</Filter>
+    </ClCompile>
+    <ClCompile Include="P1659.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

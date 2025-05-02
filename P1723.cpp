@@ -31,13 +31,13 @@ int main() {
 		len[1] = 1;
 		int l = 0, r = 1;
 		for (int i = 2; i <= tot; i++) {
-			if (r > i) {
+			if (r >= i) {
 				len[i] = min(len[l + r - i], r - i + 1);
 			}
 			while (afs[i - len[i]] == afs[i + len[i]]) {
 				len[i]++;
 			}
-			if (r < i + len[i] + 1) {
+			if (r < i + len[i] - 1) {
 				r = i + len[i] - 1;
 				l = i - len[i] + 1;
 			}
