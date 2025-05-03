@@ -2,19 +2,19 @@
 #include <cstring>
 
 using namespace std;
-const int maxn = int(1e6 + 5);
-const int mod = 19930726;
+typedef long long ll;
+const ll maxn = int(1e6 + 5);
+const ll mod = 19930726;
 
-int len[maxn];
+ll len[maxn];
 char s[maxn];
-int tot, ans=1;
-int buc[maxn];
+ll tot, ans=1;
+ll buc[maxn];
 
-int fast_pow(int a, int n) {
-	int base = a, ret = 1;
-	//n >>= 1;
+ll fast_pow(ll a, ll n) {
+	ll base = a, ret = 1;
 	while (n) {
-		if (n & 1) {
+		if (n % 2) {
 			ret = ret * base;
 			ret %= mod;
 		}
@@ -26,14 +26,14 @@ int fast_pow(int a, int n) {
 }
 
 int main() {
-	int n, k;
+	ll n, k;
 	cin >> n >> k;
 	cin >> (s + 1);
 	
-	int l = 0, r = 1;
+	ll l = 0, r = 1;
 	s[0] = '!';
 	len[1] = 1;
-	for (int i = 2; i <= n; i++) {
+	for (ll i = 2; i <= n; i++) {
 		if (r >= i) {
 			len[i] = min(len[l + r - i], r - i + 1);
 		}
@@ -45,24 +45,27 @@ int main() {
 			l = i - len[i] + 1;
 		}
 	}
-	int cnt = 0;
-	for (int i = 1; i <= n; i++) {
-		cnt += (len[i]+1)/2;
+	ll cnt = 0; ll tm = 0;
+	for (ll i = 1; i <= n; i++) {
+		cnt += len[i];
 		buc[len[i]]++;
+		tm = max(tm, len[i]);
 	}
 	if (k > cnt) {
 		printf("-1");
 		return 0;
 	}
-	for (int i = maxn-3; i > 1; i -= 2) {
+	for (ll i = tm; i > 1; i--) {
 		if (buc[i]) {
-			ans = ans * pow(i,min(k,buc[i]));
+			ans = ans * fast_pow(i*2-1,min(k,buc[i]));
 			ans %= mod;
+			buc[i-1] += min(k, buc[i]);
 			k -= min(k, buc[i]);
+			buc[i] -= min(k, buc[i]);
 			if (!k) {
 				break;
 			}
 		}
 	}
-	printf("%d", ans);
+	printf("%lld", ans);
 }
