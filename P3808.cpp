@@ -6,7 +6,7 @@ using namespace std;
 const int maxs = int(1e6 + 5);
 
 queue <int> bfs;
-char tree[maxs][26];
+int tree[maxs][26];
 int fail[maxs];
 int lst[maxs];
 int cnt;
@@ -49,7 +49,7 @@ int query(string s) {
 	int ans = 0;
 	for (int i = 0; i < s.length(); i++) {
 		rt = tree[rt][s[i] - 'a'];
-		for (int j = rt; lst[j] != -1 and rt; j = fail[j]) {
+		for (int j = rt; lst[j] != -1 and j; j = fail[j]) {
 	  		ans += lst[j];
 			lst[j] = -1;
 		}
@@ -74,6 +74,7 @@ int read() {
 }
 
 int main() {
+	ios::sync_with_stdio(0);
 	string mode,text;
 	int n = read();
 	for (int i = 1; i <= n; i++) {

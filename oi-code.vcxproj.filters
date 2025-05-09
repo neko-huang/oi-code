@@ -1128,6 +1128,9 @@
     <ClCompile Include="HDU5763.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
+    <ClCompile Include="LOJ10221.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
