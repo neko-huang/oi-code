@@ -1065,18 +1065,6 @@
     <ClCompile Include="P1348.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
-    <ClCompile Include="P3375.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P10470.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P10471.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="UVA11362.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
     <ClCompile Include="250427 A.cpp">
       <Filter>源文件\contest\atcoder 25/04/27</Filter>
     </ClCompile>
@@ -1095,6 +1083,54 @@
     <ClCompile Include="250427 C1.cpp">
       <Filter>源文件\contest\atcoder 25/04/27</Filter>
     </ClCompile>
+    <ClCompile Include="UVA11362.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P10471.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3375.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P10470.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3501.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P8643.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P3805.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1723.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P9606.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P4555.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂.cpp">
+      <Filter>源文件\基础算法</Filter>
+    </ClCompile>
+    <ClCompile Include="P4391.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1659.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P3808.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="HDU5763.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="LOJ10221.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -1103,30 +1139,5 @@
     <Text Include="output.txt">
       <Filter>资源文件</Filter>
     </Text>
-    <Text Include="..\oi-code1\input.txt">
-      <Filter>资源文件</Filter>
-    </Text>
-    <Text Include="..\oi-code1\output.txt">
-      <Filter>资源文件</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\oi-code1\test1.out">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\oi-code1\test.out">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\oi-code1\test.in">
-      <Filter>资源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\oi-code1\登顶5.png">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="..\oi-code1\登顶6.png">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
 </Project>
