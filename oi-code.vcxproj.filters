@@ -1134,9 +1134,6 @@
     <ClCompile Include="LOJ10221.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
-    <ClCompile Include="LOJ10222.cpp">
-      <Filter>源文件\计划中</Filter>
-    </ClCompile>
     <ClCompile Include="250510 A.cpp">
       <Filter>源文件\contest\atcoder 25/05/10</Filter>
     </ClCompile>
@@ -1154,6 +1151,12 @@
     </ClCompile>
     <ClCompile Include="dp.cpp">
       <Filter>源文件\contest\atcoder 25/05/10</Filter>
+    </ClCompile>
+    <ClCompile Include="HDU5015.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="LOJ10222.cpp">
+      <Filter>源文件\AC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
