@@ -40,6 +40,9 @@
     <Filter Include="源文件\contest\atcoder 25/05/10">
       <UniqueIdentifier>{581eb04f-c75a-4b15-a04b-d1f7a4c79819}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\contest\atcoder 25/05/17">
+      <UniqueIdentifier>{06b383bc-89e4-4970-a74c-274ed6de2ad9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1157,6 +1160,24 @@
     </ClCompile>
     <ClCompile Include="LOJ10222.cpp">
       <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="250517 A.cpp">
+      <Filter>源文件\contest\atcoder 25/05/17</Filter>
+    </ClCompile>
+    <ClCompile Include="250517 B.cpp">
+      <Filter>源文件\contest\atcoder 25/05/17</Filter>
+    </ClCompile>
+    <ClCompile Include="250517 C.cpp">
+      <Filter>源文件\contest\atcoder 25/05/17</Filter>
+    </ClCompile>
+    <ClCompile Include="250517 D.cpp">
+      <Filter>源文件\contest\atcoder 25/05/17</Filter>
+    </ClCompile>
+    <ClCompile Include="250517 E.cpp">
+      <Filter>源文件\contest\atcoder 25/05/17</Filter>
+    </ClCompile>
+    <ClCompile Include="250517 F.cpp">
+      <Filter>源文件\contest\atcoder 25/05/17</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
