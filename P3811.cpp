@@ -1,27 +1,22 @@
-#include <stdio.h>
+#include <iostream>
+
 using namespace std;
 typedef long long ll;
-void exgcd(ll a,ll b,ll &x,ll &y){
-    if(b==0){
-        x=1;y=0;return ;
-    }
-    exgcd(b,a%b,y,x);
-    y-=(a/b)*x;
-}
-ll rev(ll a,ll p){
-    ll x,y;
-    exgcd(a,p,x,y);
-    return (x+p)%p;
-}
-ll nowr[3000005];
-int main(){
-    ll n,p;
-    scanf("%lld%lld",&n,&p);
-    nowr[1]=1;
-    printf("1\n");
-    for(ll i=2;i<=n;i++){
-        nowr[i]=(p-p/i)*nowr[p%i];
-        nowr[i]%=p;
-        printf("%lld\n",nowr[i]);
-    }
+const ll maxn = int(3e6 + 5);
+
+ll inv[maxn];
+
+int main() {
+
+	ll n, p;
+	cin >> n >> p;
+
+	inv[1] = 1;
+	printf("1\n");
+	for (ll i = 2; i <= n; i++) {
+		inv[i] = (p - p / i) * inv[p % i];
+		inv[i] %= p;
+		printf("%lld\n", inv[i]);
+	}
+	return 0;
 }

@@ -1179,6 +1179,9 @@
     <ClCompile Include="250517 F.cpp">
       <Filter>源文件\contest\atcoder 25/05/17</Filter>
     </ClCompile>
+    <ClCompile Include="P1082.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
