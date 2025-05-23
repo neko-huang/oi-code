@@ -1182,7 +1182,13 @@
     <ClCompile Include="P1082.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
-    <ClCompile Include="P3214.cpp">
+    <ClCompile Include="P3214nyt.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P1102.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P4085.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
   </ItemGroup>

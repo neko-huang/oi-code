@@ -37,8 +37,8 @@ long long fpow(long long a, long long b) {
 	return ans;
 }
 
-long long inv(long long a, long long b = mod - 2) {
-	long long ans = 1;
+long long inv(long long a) {
+	long long ans = 1; long long b = mod - 2;
 	while (b) {
 		if (b % 2) {
 			ans *= a;
@@ -64,7 +64,7 @@ int main() {
 	long long tot = fpow(2, n) - 1;
 	A[0] = 1;
 	for (long long i = 1; i <= m; i++) {
-		A[i] = A[i - 1] * ((tot - i + 1 + mod) % mod);
+		A[i] = A[i - 1] * ((tot - i + 1+mod) % mod);
 		A[i] %= mod;
 	}
 	dp[0] = 1;
@@ -72,7 +72,7 @@ int main() {
 		dp[i] = A[i];
 		dp[i] -= dp[i - 1];
 		dp[i] = ((dp[i] % mod) + mod) % mod;
-		dp[i] -= dp[i - 2] * ((i - 1)%mod) * ((tot -i+ 2)%mod);
+		dp[i] -= dp[i - 2] * ((i - 1+mod)%mod) * ((tot -i+ 2+mod)%mod);
 		dp[i] = ((dp[i] % mod) + mod) % mod;
 	}
 	cout << dp[m]*inv(fac(m))%mod;
