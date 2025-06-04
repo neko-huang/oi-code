@@ -43,6 +43,9 @@
     <Filter Include="源文件\contest\atcoder 25/05/17">
       <UniqueIdentifier>{06b383bc-89e4-4970-a74c-274ed6de2ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\contest\atcoder 25/05/24">
+      <UniqueIdentifier>{efb35583-04ea-4660-9f05-a580f30a3d41}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1189,6 +1192,33 @@
       <Filter>源文件\计划中</Filter>
     </ClCompile>
     <ClCompile Include="P4085.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="250524 F.cpp">
+      <Filter>源文件\contest\atcoder 25/05/24</Filter>
+    </ClCompile>
+    <ClCompile Include="250524 E.cpp">
+      <Filter>源文件\contest\atcoder 25/05/24</Filter>
+    </ClCompile>
+    <ClCompile Include="250524 D.cpp">
+      <Filter>源文件\contest\atcoder 25/05/24</Filter>
+    </ClCompile>
+    <ClCompile Include="250524 C.cpp">
+      <Filter>源文件\contest\atcoder 25/05/24</Filter>
+    </ClCompile>
+    <ClCompile Include="250524 B.cpp">
+      <Filter>源文件\contest\atcoder 25/05/24</Filter>
+    </ClCompile>
+    <ClCompile Include="250524 A.cpp">
+      <Filter>源文件\contest\atcoder 25/05/24</Filter>
+    </ClCompile>
+    <ClCompile Include="P1650.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P1352.cpp">
+      <Filter>源文件\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="P2359.cpp">
       <Filter>源文件\计划中</Filter>
     </ClCompile>
   </ItemGroup>
