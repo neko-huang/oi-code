@@ -1,53 +1,48 @@
 #include <iostream>
+
 using namespace std;
-#define debug 0
-#if debug
-inline int read(){
-    int x=0,s=1;char ch=getchar();
-    while(ch<'0' or ch>'9'){
-        if(ch=='-'){
-            s=-1;ch=getchar();
-        }
-    }
-    while(ch>='0' and ch<='9'){
-        x=x*10+(ch-'0');ch=getchar();
-    }
-    return x*s;
+const int maxn = int(1e5 +5);
+
+int read() {
+	int igt = 0, sgn = 1;
+	char c = getchar();
+	while (c < '0' or c>'9') {
+		if (c == '-') {
+			sgn = -1;
+		}
+
+		c = getchar();
+	}
+	while (c >= '0' and c <= '9') {
+		igt = (igt << 3) + (igt << 1) + c - '0';
+		c = getchar();
+	}
+	return igt * sgn;
 }
 
-#else
-inline int read(){
-    int i;scanf("%d",&i);
-    return i;
-}
-#endif
-const int maxn=100007;
-int f[maxn][18];
+int lg2[maxn];
+int st[maxn][30];
 int a[maxn];
-int l2[maxn];
-int main(){
-    int n,m;
-    n=read();m=read();
-    for(int i=1;i<=n;i++){
-        a[i]=read();
-    }
-    for(int i=1;i<=n;i++){
-        f[i][0]=a[i];
-    }
-    for(int j=1;(1<<j)<=n;j++){
-        for(int i=1;i<=n-(1<<j)+1;i++){
-            f[i][j]=max(f[i][j-1],f[i+(1<<j-1)][j-1]);
-        }
-    }
-    for(int i=2;i<=n;i++){
-        l2[i]=l2[i/2]+1;
-    }
-    int l,r;
-    while(m--){
-        l=read();r=read();
-        int i=l2[r-l+1];
-        int ans=max(f[l][i],f[r-(1<<i)+1][i]);
-        printf("%d\n",ans);
-    }
-    return 0;
+
+int main() {
+	int n = read(),m=read();
+	for (int i = 1; i <= n; i++) {
+		a[i] = read();
+		st[i][0] = a[i];
+	}
+	for (int i = 2; i <= n; i++) {
+		lg2[i] = lg2[i / 2] + 1;
+	}
+	for (int i = 1; (1 << i) <= n; i++) {
+		for (int j = 1; j + (1 << i) -1 <= n; j++) {//2^n -1 
+			st[j][i] = max(st[j][i - 1], st[j + (1 << i -1)][i - 1]);
+		}
+	}
+
+	while (m--) {
+		int l = read(), r = read();
+		cout << max(st[l][lg2[r - l + 1]], st[r - (1 << lg2[r - l + 1]) + 1][lg2[r - l + 1]])<<'\n';
+	}
+
+	return 0;
 }
