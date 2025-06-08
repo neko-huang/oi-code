@@ -1,4 +1,5 @@
-#include  <iostream>
+#include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -25,7 +26,8 @@ int main() {
 	for (int i = 1; i <= n; i++) {
 		a[i] = read();
 	}
-	int l = 1, r = 1; int ans = 0;
+	int l = 1, r = 1;long long ans = 0;
+	sort(a + 1, a + 1 + n);
 	for (int i = 1; i <= n; i++) {
 		while (a[l] < a[i] - c and l <= n) {
 			l++;
@@ -33,6 +35,8 @@ int main() {
 		while (a[r] <= a[i] - c and r <= n) {
 			r++;
 		}
-		ans += (r-l);
+		if(a[i]-a[l]==c)ans += (r - l);
 	}
+	cout << ans;
+	return 0;
 }
