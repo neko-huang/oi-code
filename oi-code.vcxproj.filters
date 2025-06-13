@@ -1272,7 +1272,7 @@
     <ClCompile Include="P3379 倍增.cpp">
       <Filter>源文件\AC\LCA</Filter>
     </ClCompile>
-    <ClCompile Include="P3379 Tanjar.cpp">
+    <ClCompile Include="P3379 Tarjan.cpp">
       <Filter>源文件\AC\LCA</Filter>
     </ClCompile>
   </ItemGroup>
