@@ -58,6 +58,9 @@
     <Filter Include="源文件\contest\atcoder 25/06/07">
       <UniqueIdentifier>{3f7230e9-cf3d-408e-a630-3a25b85f93d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AC\LCA">
+      <UniqueIdentifier>{af3847c7-30bf-4976-8a90-7f90e0d07a3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -131,9 +134,6 @@
     </ClCompile>
     <ClCompile Include="P3369_treap.cpp">
       <Filter>源文件\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P3379.cpp">
-      <Filter>源文件\AC</Filter>
     </ClCompile>
     <ClCompile Include="P2894.cpp">
       <Filter>源文件\AC</Filter>
@@ -894,12 +894,6 @@
     <ClCompile Include="P3366 【模板】最小生成树.cpp">
       <Filter>源文件\AC</Filter>
     </ClCompile>
-    <ClCompile Include="P3373.cpp">
-      <Filter>源文件\AC</Filter>
-    </ClCompile>
-    <ClCompile Include="P3379_LCA.cpp">
-      <Filter>源文件\AC</Filter>
-    </ClCompile>
     <ClCompile Include="P3383.cpp">
       <Filter>源文件\AC</Filter>
     </ClCompile>
@@ -1268,6 +1262,18 @@
     </ClCompile>
     <ClCompile Include="250607 G.cpp">
       <Filter>源文件\contest\atcoder 25/06/07</Filter>
+    </ClCompile>
+    <ClCompile Include="P3373 0WA.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P11962.cpp">
+      <Filter>源文件\计划中</Filter>
+    </ClCompile>
+    <ClCompile Include="P3379 倍增.cpp">
+      <Filter>源文件\AC\LCA</Filter>
+    </ClCompile>
+    <ClCompile Include="P3379 Tanjar.cpp">
+      <Filter>源文件\AC\LCA</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
