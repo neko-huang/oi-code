@@ -64,6 +64,9 @@
     <Filter Include="源文件\AC\前缀和与倍增">
       <UniqueIdentifier>{6eca5590-50a9-4c72-886d-8ba291b17501}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\contest\atcoder 25/06/14">
+      <UniqueIdentifier>{5566e80f-e23a-4d1e-a372-de5179fc65d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1280,6 +1283,24 @@
     </ClCompile>
     <ClCompile Include="P1083.cpp">
       <Filter>源文件\AC\前缀和与倍增</Filter>
+    </ClCompile>
+    <ClCompile Include="250614 A.cpp">
+      <Filter>源文件\contest\atcoder 25/06/14</Filter>
+    </ClCompile>
+    <ClCompile Include="250614 B.cpp">
+      <Filter>源文件\contest\atcoder 25/06/14</Filter>
+    </ClCompile>
+    <ClCompile Include="250614 C.cpp">
+      <Filter>源文件\contest\atcoder 25/06/14</Filter>
+    </ClCompile>
+    <ClCompile Include="250614 D.cpp">
+      <Filter>源文件\contest\atcoder 25/06/14</Filter>
+    </ClCompile>
+    <ClCompile Include="250614 E.cpp">
+      <Filter>源文件\contest\atcoder 25/06/14</Filter>
+    </ClCompile>
+    <ClCompile Include="250614 F.cpp">
+      <Filter>源文件\contest\atcoder 25/06/14</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
