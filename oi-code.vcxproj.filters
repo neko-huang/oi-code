@@ -67,6 +67,9 @@
     <Filter Include="源文件\contest\atcoder 25/06/14">
       <UniqueIdentifier>{5566e80f-e23a-4d1e-a372-de5179fc65d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\contest\百度之星 25/06/29">
+      <UniqueIdentifier>{653c0fbb-e4e6-4c84-be2e-6926317742d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1301,6 +1304,24 @@
     </ClCompile>
     <ClCompile Include="250614 F.cpp">
       <Filter>源文件\contest\atcoder 25/06/14</Filter>
+    </ClCompile>
+    <ClCompile Include="BD202501.cpp">
+      <Filter>源文件\contest\百度之星 25/06/29</Filter>
+    </ClCompile>
+    <ClCompile Include="BD202502.cpp">
+      <Filter>源文件\contest\百度之星 25/06/29</Filter>
+    </ClCompile>
+    <ClCompile Include="BD202503.cpp">
+      <Filter>源文件\contest\百度之星 25/06/29</Filter>
+    </ClCompile>
+    <ClCompile Include="BD202504.cpp">
+      <Filter>源文件\contest\百度之星 25/06/29</Filter>
+    </ClCompile>
+    <ClCompile Include="BD202505.cpp">
+      <Filter>源文件\contest\百度之星 25/06/29</Filter>
+    </ClCompile>
+    <ClCompile Include="BD202507.cpp">
+      <Filter>源文件\contest\百度之星 25/06/29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
