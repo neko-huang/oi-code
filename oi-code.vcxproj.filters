@@ -70,6 +70,9 @@
     <Filter Include="源文件\contest\百度之星 25/06/29">
       <UniqueIdentifier>{653c0fbb-e4e6-4c84-be2e-6926317742d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AC\SHSBNU-OJ">
+      <UniqueIdentifier>{d15bb231-603a-4a46-8c38-c57eb83b3795}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1322,6 +1325,18 @@
     </ClCompile>
     <ClCompile Include="BD202507.cpp">
       <Filter>源文件\contest\百度之星 25/06/29</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17045.cpp">
+      <Filter>源文件\AC\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17046.cpp">
+      <Filter>源文件\AC\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17047.cpp">
+      <Filter>源文件\AC\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17049.cpp">
+      <Filter>源文件\AC\SHSBNU-OJ</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
