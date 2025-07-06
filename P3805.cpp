@@ -1,43 +1,41 @@
 #include <iostream>
+#include <cstring>
 #include <string.h>
 
 using namespace std;
-typedef long long ll;
-const ll maxn = ll(22000000 + 10);
+const int maxn = int(1.1e7 + 6);
+char s[maxn * 2];
+char crr[maxn];
+int len[maxn * 2];
 
-long long len[maxn];
-char s[maxn],afs[maxn];
-ll tot;
+signed main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
 
-int main() {
-
-	cin >> (s + 1);
-	afs[0] = '#';
-	afs[++tot] = '@'; ll tmp = strlen(s + 1);
-	for (ll i = 1; i <= tmp; i++) {
-		afs[++tot] = s[i];
-		afs[++tot] = '@';
+	cin >> crr;
+	s[0] = '$';
+	int cnt = 0,crrlen=strlen(crr);
+	for (int i = 0; i < crrlen; i++) {
+		s[i * 2 + 1] = '#'; s[i * 2 + 2] = crr[i];
+		cnt = i * 2 + 2;
 	}
+	s[++cnt] = '#'; 
 
+	int ans = 0;
 	len[1] = 1;
-	//manacher 
-	ll l=0, r=1;//这是回文区间
-	ll ans=0;
-	for (ll i = 2; i <= tot; i++) {
-		if (i <= r) {//在区间内
-			len[i] = min( len[l + r - i], r - i+1);//r-i+1: (最小)回文距离 len[l+r-i]: 对称性决定
+	for (int l = 0, r = 1, i = 2; i <= cnt; i++) {
+		if (i <= r) {
+			len[i] = min(len[l + r - i], r - i + 1);
 		}
-		while (afs[i - len[i]] == afs[i + len[i]]) {//拓展
+		while (s[i - len[i]] == s[i + len[i]]) {
 			len[i]++;
 		}
-		//|包含自己,所以-1
-		//v
-		if (i + len[i] - 1 > r) {//超出区间,upd
+		if (i + len[i] -1 > r) {
 			r = i + len[i] - 1;
 			l = i - len[i] + 1;
 		}
 		ans = max(ans, len[i]);
 	}
-	printf("%lld", ans-1);//-1
+	cout << ans - 1;
 	return 0;
 }
