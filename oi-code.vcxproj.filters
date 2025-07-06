@@ -127,6 +127,18 @@
     <Filter Include="源文件\练习题库\contest\atcoder\atcoder 25/04/27">
       <UniqueIdentifier>{8a46ad36-0f3f-4c6f-95df-26c283fecba3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\算法题库\矩阵加速">
+      <UniqueIdentifier>{52a4c23c-ed15-4dab-a727-7fa8e530b5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\字符串hash">
+      <UniqueIdentifier>{c4ac47ad-5376-40f3-8924-3f9362680ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\KMP">
+      <UniqueIdentifier>{e0849e7a-2119-4f62-8800-451d1c71d214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\Trie-char">
+      <UniqueIdentifier>{a822810d-71d8-4607-b991-5745a004e79b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -687,28 +699,7 @@
     <ClCompile Include="250427 C1.cpp">
       <Filter>源文件\练习题库\contest\atcoder\atcoder 25/04/27</Filter>
     </ClCompile>
-    <ClCompile Include="UVA11362.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
-    <ClCompile Include="P10471.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
-    <ClCompile Include="P3375.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
-    <ClCompile Include="P10470.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
-    <ClCompile Include="P3501.cpp">
-      <Filter>源文件\练习题库\计划中</Filter>
-    </ClCompile>
     <ClCompile Include="P8643.cpp">
-      <Filter>源文件\练习题库\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P1723.cpp">
-      <Filter>源文件\练习题库\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="P9606.cpp">
       <Filter>源文件\练习题库\计划中</Filter>
     </ClCompile>
     <ClCompile Include="P4555.cpp">
@@ -717,19 +708,10 @@
     <ClCompile Include="快速幂.cpp">
       <Filter>源文件\基础算法</Filter>
     </ClCompile>
-    <ClCompile Include="P4391.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
-    <ClCompile Include="P1659.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
     <ClCompile Include="P3808.cpp">
       <Filter>源文件\练习题库\计划中</Filter>
     </ClCompile>
     <ClCompile Include="HDU5763.cpp">
-      <Filter>源文件\练习题库\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="LOJ10221.cpp">
       <Filter>源文件\练习题库\计划中</Filter>
     </ClCompile>
     <ClCompile Include="250510 A.cpp">
@@ -752,9 +734,6 @@
     </ClCompile>
     <ClCompile Include="HDU5015.cpp">
       <Filter>源文件\练习题库\计划中</Filter>
-    </ClCompile>
-    <ClCompile Include="LOJ10222.cpp">
-      <Filter>源文件\算法题库</Filter>
     </ClCompile>
     <ClCompile Include="250517 A.cpp">
       <Filter>源文件\练习题库\contest\atcoder\atcoder 25/05/17</Filter>
@@ -1406,6 +1385,51 @@
     </ClCompile>
     <ClCompile Include="P3805.cpp">
       <Filter>源文件\算法题库\Manacher</Filter>
+    </ClCompile>
+    <ClCompile Include="P1723.cpp">
+      <Filter>源文件\算法题库\Manacher</Filter>
+    </ClCompile>
+    <ClCompile Include="P9606.cpp">
+      <Filter>源文件\算法题库\Manacher</Filter>
+    </ClCompile>
+    <ClCompile Include="P1659.cpp">
+      <Filter>源文件\算法题库\Manacher</Filter>
+    </ClCompile>
+    <ClCompile Include="P3370.cpp">
+      <Filter>源文件\算法题库\字符串hash</Filter>
+    </ClCompile>
+    <ClCompile Include="P3501.cpp">
+      <Filter>源文件\算法题库\字符串hash</Filter>
+    </ClCompile>
+    <ClCompile Include="P3375.cpp">
+      <Filter>源文件\算法题库\KMP</Filter>
+    </ClCompile>
+    <ClCompile Include="P4391.cpp">
+      <Filter>源文件\算法题库\KMP</Filter>
+    </ClCompile>
+    <ClCompile Include="P10470.cpp">
+      <Filter>源文件\算法题库\Trie-char</Filter>
+    </ClCompile>
+    <ClCompile Include="P10471.cpp">
+      <Filter>源文件\算法题库\Trie-char</Filter>
+    </ClCompile>
+    <ClCompile Include="UVA11362.cpp">
+      <Filter>源文件\算法题库\Trie-char</Filter>
+    </ClCompile>
+    <ClCompile Include="LOJ10221.cpp">
+      <Filter>源文件\算法题库\矩阵加速</Filter>
+    </ClCompile>
+    <ClCompile Include="LOJ10222.cpp">
+      <Filter>源文件\算法题库\矩阵加速</Filter>
+    </ClCompile>
+    <ClCompile Include="P4503.cpp">
+      <Filter>源文件\算法题库\字符串hash</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17050.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17060.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
