@@ -139,6 +139,12 @@
     <Filter Include="源文件\算法题库\Trie-char">
       <UniqueIdentifier>{a822810d-71d8-4607-b991-5745a004e79b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\练习题库\Luogu">
+      <UniqueIdentifier>{46c274fb-2e8e-4d4a-9125-2e28b3ee0f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习题库\POJ">
+      <UniqueIdentifier>{98cd63f1-e171-4c35-bba6-abd1dbe0dc51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1429,6 +1435,21 @@
       <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
     </ClCompile>
     <ClCompile Include="SHS17060.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="P3197.cpp">
+      <Filter>源文件\练习题库\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="POJ3613.cpp">
+      <Filter>源文件\练习题库\POJ</Filter>
+    </ClCompile>
+    <ClCompile Include="P2375.cpp">
+      <Filter>源文件\算法题库\KMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17051.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17052.cpp">
       <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
     </ClCompile>
   </ItemGroup>
