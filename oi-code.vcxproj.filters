@@ -1452,6 +1452,15 @@
     <ClCompile Include="SHS17052.cpp">
       <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
     </ClCompile>
+    <ClCompile Include="线性筛.cpp">
+      <Filter>源文件\基础算法</Filter>
+    </ClCompile>
+    <ClCompile Include="数据生成.cpp">
+      <Filter>源文件\others</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17053.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

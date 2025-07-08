@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
+typedef long long ll;
+const ll mod = 998244353;
 
-const int mod = 998244353;
-int pow2(int a, int x) {
-	int base = a, ret = 1;
+ll pow2(ll a, ll x) {
+	ll base = a, ret = 1;
 	while (x) {
 		if (x & 1) {
 			ret *= base;
@@ -13,16 +14,22 @@ int pow2(int a, int x) {
 		base %= mod;
 		x >>= 1;
 	}
-	return ret;
+	return ret % mod;
 }
-int main() {
-	int n, m;
-	cin >> n >> m;
-	m--;
-	int ans = 0;
-	for (int i = 1; i <= n; i++) {
-		ans += pow(i, m);
-		ans %= mod;
+signed main() {
+	ll t;
+	cin >> t;
+	while (t--) {
+		ll n, m;
+		cin >> n >> m;
+		m--;
+		ll ans = 0;
+		for (ll i = 1; i <= n; i++) {
+			ans += pow2(i, m);
+			ans %= mod;
+		}
+		cout << ans % mod << '\n';
 	}
+	
 	return 0;
 }
