@@ -1455,10 +1455,28 @@
     <ClCompile Include="线性筛.cpp">
       <Filter>源文件\基础算法</Filter>
     </ClCompile>
-    <ClCompile Include="数据生成.cpp">
+    <ClCompile Include="SHS17053.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="P2261.cpp">
+      <Filter>源文件\练习题库\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="Attttttt.cpp">
       <Filter>源文件\others</Filter>
     </ClCompile>
-    <ClCompile Include="SHS17053.cpp">
+    <ClCompile Include="SHS17054.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17055.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17059.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17061.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SHS17062.cpp">
       <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
     </ClCompile>
   </ItemGroup>
