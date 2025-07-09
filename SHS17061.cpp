@@ -36,9 +36,12 @@ int main() {
 		int tmpx = read(), tmpy = read();
 		a[i] = { tmpx,tmpy };
 	}
+	long long ans = 0;
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j < i; j++) {
-
+			ans += Two_Point(a[i], a[j]);
 		}
 	}
+	cout << ans;
+	return 0;
 }
