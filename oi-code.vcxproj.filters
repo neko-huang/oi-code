@@ -145,6 +145,9 @@
     <Filter Include="源文件\练习题库\POJ">
       <UniqueIdentifier>{98cd63f1-e171-4c35-bba6-abd1dbe0dc51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\练习题库\contest\2f 25/07/10">
+      <UniqueIdentifier>{3f71b02c-90d3-4da8-a340-8cc928eeaf40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1478,6 +1481,18 @@
     </ClCompile>
     <ClCompile Include="SHS17062.cpp">
       <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="2f 25\07\light.cpp">
+      <Filter>源文件\练习题库\contest\2f 25/07/10</Filter>
+    </ClCompile>
+    <ClCompile Include="slide.cpp">
+      <Filter>源文件\练习题库\contest\2f 25/07/10</Filter>
+    </ClCompile>
+    <ClCompile Include="plant.cpp">
+      <Filter>源文件\练习题库\contest\2f 25/07/10</Filter>
+    </ClCompile>
+    <ClCompile Include="choco.cpp">
+      <Filter>源文件\练习题库\contest\2f 25/07/10</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
