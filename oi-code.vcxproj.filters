@@ -1494,6 +1494,9 @@
     <ClCompile Include="choco.cpp">
       <Filter>源文件\练习题库\contest\2f 25/07/10</Filter>
     </ClCompile>
+    <ClCompile Include="SHS17063.cpp">
+      <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
