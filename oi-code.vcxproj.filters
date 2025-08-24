@@ -28,9 +28,6 @@
     <Filter Include="源文件\算法题库\双指针">
       <UniqueIdentifier>{df675758-8d27-4b6b-88af-d5b4af9b0149}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\算法题库\LCA">
-      <UniqueIdentifier>{af3847c7-30bf-4976-8a90-7f90e0d07a3c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\算法题库\前缀和与倍增">
       <UniqueIdentifier>{6eca5590-50a9-4c72-886d-8ba291b17501}</UniqueIdentifier>
     </Filter>
@@ -148,6 +145,51 @@
     <Filter Include="源文件\练习题库\contest\2f 25/07/10">
       <UniqueIdentifier>{3f71b02c-90d3-4da8-a340-8cc928eeaf40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\练习题库\Atcoder">
+      <UniqueIdentifier>{8e81df4e-20ae-4ac6-950b-fddd92752034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习题库\Codeforces">
+      <UniqueIdentifier>{bfd6eb5e-6917-4465-99e0-a944d471dd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\贪心">
+      <UniqueIdentifier>{9452318b-4d7d-4561-9d3e-7baa971ca645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\贪心\可撤销贪心">
+      <UniqueIdentifier>{816538a0-c64b-4f3f-a452-1dec3fbc7e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\单调栈_队列">
+      <UniqueIdentifier>{459f58c5-4fde-4457-aa5e-5673866ddf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\线段树">
+      <UniqueIdentifier>{737af962-ea6c-4852-9775-68c02cf41520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\树上问题">
+      <UniqueIdentifier>{9bab9acd-08a4-47c6-a604-b04577ca6e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\树上问题\LCA">
+      <UniqueIdentifier>{af3847c7-30bf-4976-8a90-7f90e0d07a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\树上问题\树的直径">
+      <UniqueIdentifier>{67d1d059-9104-410d-a18d-417060de90c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\树上问题\最小生成树">
+      <UniqueIdentifier>{d7e7b40b-390e-4b9d-8f33-3ea5a3ddaa11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\数论">
+      <UniqueIdentifier>{5656e9f1-d5cb-4839-bb12-4c8f84f10e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\算法题库\贪心\纯贪心">
+      <UniqueIdentifier>{254ef09b-1e07-40eb-a74b-84132042e51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习题库\contest\百度之星 25/08/10">
+      <UniqueIdentifier>{8609db51-8443-4831-8ea0-c9096a5a4921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习题库\contest\bnu 25/08/08">
+      <UniqueIdentifier>{018f5c6c-de6a-4070-b8b6-a26461c51733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习题库\contest\bnu 25/08/10">
+      <UniqueIdentifier>{166b91ac-7109-4e06-8b9e-5431ed62a36b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -178,9 +220,6 @@
       <Filter>源文件\算法题库</Filter>
     </ClCompile>
     <ClCompile Include="P3368.cpp">
-      <Filter>源文件\算法题库</Filter>
-    </ClCompile>
-    <ClCompile Include="P3372.cpp">
       <Filter>源文件\算法题库</Filter>
     </ClCompile>
     <ClCompile Include="P3374.cpp">
@@ -850,10 +889,10 @@
       <Filter>源文件\练习题库\计划中</Filter>
     </ClCompile>
     <ClCompile Include="P3379 倍增.cpp">
-      <Filter>源文件\算法题库\LCA</Filter>
+      <Filter>源文件\算法题库\树上问题\LCA</Filter>
     </ClCompile>
     <ClCompile Include="P3379 Tarjan.cpp">
-      <Filter>源文件\算法题库\LCA</Filter>
+      <Filter>源文件\算法题库\树上问题\LCA</Filter>
     </ClCompile>
     <ClCompile Include="P1083.cpp">
       <Filter>源文件\算法题库\前缀和与倍增</Filter>
@@ -1496,6 +1535,96 @@
     </ClCompile>
     <ClCompile Include="SHS17063.cpp">
       <Filter>源文件\练习题库\SHSBNU-OJ</Filter>
+    </ClCompile>
+    <ClCompile Include="CF2082B.cpp">
+      <Filter>源文件\练习题库\Codeforces</Filter>
+    </ClCompile>
+    <ClCompile Include="AGC032E.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="P2949.cpp">
+      <Filter>源文件\算法题库\贪心\可撤销贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="P1484.cpp">
+      <Filter>源文件\算法题库\贪心\可撤销贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="P3029.cpp">
+      <Filter>源文件\算法题库\双指针</Filter>
+    </ClCompile>
+    <ClCompile Include="P5788.cpp">
+      <Filter>源文件\算法题库\单调栈_队列</Filter>
+    </ClCompile>
+    <ClCompile Include="P3373.cpp">
+      <Filter>源文件\算法题库\线段树</Filter>
+    </ClCompile>
+    <ClCompile Include="P3372.cpp">
+      <Filter>源文件\算法题库\线段树</Filter>
+    </ClCompile>
+    <ClCompile Include="PT07Z_DFS.cpp">
+      <Filter>源文件\算法题库\树上问题\树的直径</Filter>
+    </ClCompile>
+    <ClCompile Include="P1195_Kruskal.cpp">
+      <Filter>源文件\算法题库\树上问题\最小生成树</Filter>
+    </ClCompile>
+    <ClCompile Include="CF229B.cpp">
+      <Filter>源文件\算法题库\树上问题</Filter>
+    </ClCompile>
+    <ClCompile Include="CF832D.cpp">
+      <Filter>源文件\算法题库\树上问题</Filter>
+    </ClCompile>
+    <ClCompile Include="CF25C.cpp">
+      <Filter>源文件\算法题库\树上问题</Filter>
+    </ClCompile>
+    <ClCompile Include="204725.第1题_贪心WA.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/08</Filter>
+    </ClCompile>
+    <ClCompile Include="204726.第2题.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/08</Filter>
+    </ClCompile>
+    <ClCompile Include="204725.第1题_dpWA.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/08</Filter>
+    </ClCompile>
+    <ClCompile Include="204725.第1题_BFS.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/08</Filter>
+    </ClCompile>
+    <ClCompile Include="P8306.cpp">
+      <Filter>源文件\算法题库\Trie-char</Filter>
+    </ClCompile>
+    <ClCompile Include="P4549.cpp">
+      <Filter>源文件\算法题库\数论</Filter>
+    </ClCompile>
+    <ClCompile Include="P1080.cpp">
+      <Filter>源文件\算法题库\贪心\纯贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="204940.第1题.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/10</Filter>
+    </ClCompile>
+    <ClCompile Include="204941.第2题.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/10</Filter>
+    </ClCompile>
+    <ClCompile Include="204942.第3题.cpp">
+      <Filter>源文件\练习题库\contest\bnu 25/08/10</Filter>
+    </ClCompile>
+    <ClCompile Include="BD2025D.cpp">
+      <Filter>源文件\练习题库\contest\百度之星 25/08/10</Filter>
+    </ClCompile>
+    <ClCompile Include="BD2025D_1.cpp">
+      <Filter>源文件\练习题库\contest\百度之星 25/08/10</Filter>
+    </ClCompile>
+    <ClCompile Include="BD2025H.cpp">
+      <Filter>源文件\练习题库\contest\百度之星 25/08/10</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC417B.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC417C.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC417D.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC417E.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

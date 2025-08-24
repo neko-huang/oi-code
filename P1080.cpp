@@ -1,0 +1,21 @@
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+const int maxn = int(1e3 + 5);
+
+int a[maxn], b[maxn], p[maxn];
+
+int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+
+	int n;
+	cin >> n;
+	for (int i = 0; i <= n; i++) {
+		cin >> a[i] >> b[i];
+		p[i] = a[i] * b[i];
+	}
+
+	sort(p + 1, p + 1 + n);
+}
