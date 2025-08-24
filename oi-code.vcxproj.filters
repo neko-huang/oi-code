@@ -1626,6 +1626,18 @@
     <ClCompile Include="ABC417E.cpp">
       <Filter>源文件\练习题库\Atcoder</Filter>
     </ClCompile>
+    <ClCompile Include="ABC419C.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC416F.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC384E.cpp">
+      <Filter>源文件\练习题库\Atcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="P3953.cpp">
+      <Filter>源文件\练习题库\Luogu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
