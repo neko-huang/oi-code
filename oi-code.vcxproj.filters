@@ -190,6 +190,9 @@
     <Filter Include="源文件\练习题库\contest\bnu 25/08/10">
       <UniqueIdentifier>{166b91ac-7109-4e06-8b9e-5431ed62a36b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\算法题库\DP">
+      <UniqueIdentifier>{74f0bf9a-978e-4c63-a684-38689130ed06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1637,6 +1640,15 @@
     </ClCompile>
     <ClCompile Include="P3953.cpp">
       <Filter>源文件\练习题库\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="tmpT.cpp">
+      <Filter>源文件\练习题库</Filter>
+    </ClCompile>
+    <ClCompile Include="tmpF.cpp">
+      <Filter>源文件\练习题库</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共上升子序列.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
