@@ -36,9 +36,9 @@ int main() {
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n; j++) {
 			if (a[i] == b[j]) {
-				for (int k = 1; k < i; k++) {
-					if (a[k] < b[j]) {
-						dp[i][j] = max(dp[i][j], dp[k][j] + 1);
+				for (int k = 1; k < j; k++) {
+					if (b[k] < b[j]) {
+						dp[i][j] = max(dp[i][j], dp[i-1][k] + 1);
 					}
 				}
 			}
