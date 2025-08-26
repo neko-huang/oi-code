@@ -1650,6 +1650,24 @@
     <ClCompile Include="最长公共上升子序列.cpp">
       <Filter>源文件\算法题库\DP</Filter>
     </ClCompile>
+    <ClCompile Include="P13015.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="P13016.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC415C.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC415E.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC415G.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC415F.cpp">
+      <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
