@@ -193,6 +193,9 @@
     <Filter Include="源文件\算法题库\DP">
       <UniqueIdentifier>{74f0bf9a-978e-4c63-a684-38689130ed06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\算法题库\分数规划">
+      <UniqueIdentifier>{be598f4d-32df-4de1-8e27-25c67b7f1b18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1667,6 +1670,9 @@
     </ClCompile>
     <ClCompile Include="ABC415F.cpp">
       <Filter>源文件\算法题库\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="POJ2728.cpp">
+      <Filter>源文件\算法题库\分数规划</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
