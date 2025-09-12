@@ -251,6 +251,7 @@
     <ClCompile Include="P3373.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="P3386.cpp" />
     <ClCompile Include="P3953.cpp" />
     <ClCompile Include="P4549.cpp" />
     <ClCompile Include="P5788.cpp" />
@@ -1475,6 +1476,7 @@
     <ClCompile Include="脑袋一热筛.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="链式前向星.cpp" />
     <ClCompile Include="阶乘.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

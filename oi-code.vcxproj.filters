@@ -196,6 +196,12 @@
     <Filter Include="源文件\算法题库\分数规划">
       <UniqueIdentifier>{be598f4d-32df-4de1-8e27-25c67b7f1b18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\算法题库\二分图">
+      <UniqueIdentifier>{a6af2a16-caf0-4be9-b4ad-8e91be5281ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\基础算法\图相关">
+      <UniqueIdentifier>{5ed1c1c4-ec60-46eb-b146-bc46da67ce87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1673,6 +1679,12 @@
     </ClCompile>
     <ClCompile Include="POJ2728.cpp">
       <Filter>源文件\算法题库\分数规划</Filter>
+    </ClCompile>
+    <ClCompile Include="P3386.cpp">
+      <Filter>源文件\算法题库\二分图</Filter>
+    </ClCompile>
+    <ClCompile Include="链式前向星.cpp">
+      <Filter>源文件\基础算法\图相关</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
