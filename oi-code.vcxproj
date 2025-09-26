@@ -254,6 +254,7 @@
     <ClCompile Include="P3386.cpp" />
     <ClCompile Include="P3953.cpp" />
     <ClCompile Include="P4549.cpp" />
+    <ClCompile Include="P5490.cpp" />
     <ClCompile Include="P5788.cpp" />
     <ClCompile Include="P8306.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

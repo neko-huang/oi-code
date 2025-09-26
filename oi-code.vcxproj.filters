@@ -202,6 +202,9 @@
     <Filter Include="源文件\基础算法\图相关">
       <UniqueIdentifier>{5ed1c1c4-ec60-46eb-b146-bc46da67ce87}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\算法题库\扫描线">
+      <UniqueIdentifier>{c2eb0209-1f02-498a-b06a-fd03f151f38e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1685,6 +1688,9 @@
     </ClCompile>
     <ClCompile Include="链式前向星.cpp">
       <Filter>源文件\基础算法\图相关</Filter>
+    </ClCompile>
+    <ClCompile Include="P5490.cpp">
+      <Filter>源文件\算法题库\扫描线</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
