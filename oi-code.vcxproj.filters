@@ -205,9 +205,6 @@
     <Filter Include="源文件\算法题库\扫描线">
       <UniqueIdentifier>{c2eb0209-1f02-498a-b06a-fd03f151f38e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\练习题库\contest\bnu 25/10/08">
-      <UniqueIdentifier>{249487a1-7b0a-4ddb-9527-b484163d32db}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1694,24 +1691,6 @@
     </ClCompile>
     <ClCompile Include="P5490.cpp">
       <Filter>源文件\算法题库\扫描线</Filter>
-    </ClCompile>
-    <ClCompile Include="P1115.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="P11232.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="P1843.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="P3951.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="P7960.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="251008 A.cpp">
-      <Filter>源文件\练习题库\contest\bnu 25/10/08</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
