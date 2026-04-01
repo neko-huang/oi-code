@@ -205,6 +205,12 @@
     <Filter Include="源文件\算法题库\扫描线">
       <UniqueIdentifier>{c2eb0209-1f02-498a-b06a-fd03f151f38e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\练习题库\contest\atcoder\atcoder 25/10/18">
+      <UniqueIdentifier>{ed6c9901-69ef-40cb-9742-a002fd00fe85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习题库\contest\S模拟2">
+      <UniqueIdentifier>{bf4a6bfc-aa95-4a12-afd8-24ccdf518c4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="P1005_AC.cpp">
@@ -1691,6 +1697,54 @@
     </ClCompile>
     <ClCompile Include="P5490.cpp">
       <Filter>源文件\算法题库\扫描线</Filter>
+    </ClCompile>
+    <ClCompile Include="251011 A.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="251011 B.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="251011 C.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="251011 D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="251011 E.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="P3369_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="251018 A.cpp">
+      <Filter>源文件\练习题库\contest\atcoder\atcoder 25/10/18</Filter>
+    </ClCompile>
+    <ClCompile Include="251018 B.cpp">
+      <Filter>源文件\练习题库\contest\atcoder\atcoder 25/10/18</Filter>
+    </ClCompile>
+    <ClCompile Include="251018 C.cpp">
+      <Filter>源文件\练习题库\contest\atcoder\atcoder 25/10/18</Filter>
+    </ClCompile>
+    <ClCompile Include="251018 D.cpp">
+      <Filter>源文件\练习题库\contest\atcoder\atcoder 25/10/18</Filter>
+    </ClCompile>
+    <ClCompile Include="251018 E.cpp">
+      <Filter>源文件\练习题库\contest\atcoder\atcoder 25/10/18</Filter>
+    </ClCompile>
+    <ClCompile Include="251018 F.cpp">
+      <Filter>源文件\练习题库\contest\atcoder\atcoder 25/10/18</Filter>
+    </ClCompile>
+    <ClCompile Include="20251025 A.cpp">
+      <Filter>源文件\练习题库\contest\S模拟2</Filter>
+    </ClCompile>
+    <ClCompile Include="20251025 B.cpp">
+      <Filter>源文件\练习题库\contest\S模拟2</Filter>
+    </ClCompile>
+    <ClCompile Include="20251025 C.cpp">
+      <Filter>源文件\练习题库\contest\S模拟2</Filter>
+    </ClCompile>
+    <ClCompile Include="20251025 D.cpp">
+      <Filter>源文件\练习题库\contest\S模拟2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
